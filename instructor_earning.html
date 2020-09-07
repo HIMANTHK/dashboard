@@ -19,13 +19,9 @@
 		<link href="css/instructor-dashboard.css" rel="stylesheet">
 		<link href="css/instructor-responsive.css" rel="stylesheet">
 		<link href="css/night-mode.css" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    	<link rel="stylesheet" type="text/css" href="css/datepicker.css">
 		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 		<link rel="stylesheet" href="/resources/demos/style.css">
-		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-   
+		
 		
 		<!-- Vendor Stylesheets -->
 		<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
@@ -33,11 +29,7 @@
 		<link href="vendor/OwlCarousel/assets/owl.theme.default.min.css" rel="stylesheet">
 		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="vendor/semantic/semantic.min.css">		
-		  <script>
-		  $( function() {
-			$( "#datepicker" ).datepicker();
-		  } );
-		  </script>
+		 
 	</head>
 
 <body>
@@ -238,7 +230,7 @@
 					</li>
 					<li class="menu--item">
 						<a href="instructor_earning.html" class="menu--link" title="Earning">
-						  <i class='uil uil-dollar-sign menu--icon'></i>
+						  <i class='uil uil-webcam menu--icon'></i>
 						  <span class="menu--label">Session</span>
 						</a>
 					</li>
@@ -284,19 +276,109 @@
 						</div>
 					</div>
 					
-					<div class="col-lg-12 col-md-12">
+					<div class="col-sm-6">
 						<div class="date_selector">
-							<div class="ui selection dropdown skills-search vchrt-dropdown">
-							  
-									<input type="text" id="datepicker">
-									<i class="dropdown icon d-icon"></i>
+							  <div class="ui selection dropdown skills-search vchrt-dropdown">
+								<input name="date" type="hidden" value="default">
+								<i class="dropdown icon d-icon"></i>
+								<div class="text">Year</div>
+								<div class="menu">
+									<div class="item" data-value="0">1990</div>
+									<div class="item" data-value="1">1991</div>
+									<div class="item" data-value="2">1992</div>
+									<div class="item" data-value="3">1993</div>
+									<div class="item" data-value="4">1994</div>
+									<div class="item" data-value="5">1995</div>
+									<div class="item" data-value="6">1996</div>
+									<div class="item" data-value="7">1997</div>
+									<div class="item" data-value="8">1998</div>
+									<div class="item" data-value="9">1999</div>
+									<div class="item" data-value="10">2000</div>
+									<div class="item" data-value="11">2001</div>
+									<div class="item" data-value="12">2002</div>
+									<div class="item" data-value="13">2003</div>
+									<div class="item" data-value="14">2004</div>
+									<div class="item" data-value="15">2005</div>
+									<div class="item" data-value="16">2006</div>
+									<div class="item" data-value="17">2007</div>
+									<div class="item" data-value="18">2008</div>
+									<div class="item" data-value="19">2009</div>
+									<div class="item" data-value="20">2010</div>
+									<div class="item" data-value="21">2011</div>
+									<div class="item" data-value="22">2012</div>
+									<div class="item" data-value="23">2013</div>
+									<div class="item" data-value="24">2014</div>
+									<div class="item" data-value="25">2015</div>
+									<div class="item" data-value="26">2016</div>
+									<div class="item" data-value="27">2017</div>
+									<div class="item" data-value="28">2018</div>
+									<div class="item" data-value="29">2019</div>
+									<div class="item" data-value="30">2020</div>
 								</div>
-							</div>
-							<div class="date_list152">
-								<a href="#">All Time</a> /
-								<a href="#">2020</a> /
-								<a href="#">April</a>
-							</div>
+								  
+								</div>
+							<div class="ui selection dropdown skills-search vchrt-dropdown">
+								<input name="date" type="hidden" value="default">
+								<i class="dropdown icon d-icon"></i>
+								<div class="text">Months</div>
+								<div class="menu">
+									<div class="item" data-value="0">Jan</div>
+									<div class="item" data-value="1">Feb</div>
+									<div class="item" data-value="2">Mar</div>
+									<div class="item" data-value="3">April</div>
+									<div class="item" data-value="4">May</div>
+									<div class="item" data-value="5">June</div>
+									<div class="item" data-value="6">July</div>
+									<div class="item" data-value="7">August</div>
+									<div class="item" data-value="8">Sept</div>
+									<div class="item" data-value="9">Oct</div>
+									<div class="item" data-value="10">Nov</div>
+									<div class="item" data-value="11">Dec</div>
+								</div>
+								  
+								</div>
+							<div class="ui selection dropdown skills-search vchrt-dropdown">
+								<input name="date" type="hidden" value="default">
+								<i class="dropdown icon d-icon"></i>
+								<div class="text">Day</div>
+								<div class="menu">
+									<div class="item" data-value="0">1</div>
+									<div class="item" data-value="1">2</div>
+									<div class="item" data-value="2">3</div>
+									<div class="item" data-value="3">4</div>
+									<div class="item" data-value="4">5</div>
+									<div class="item" data-value="5">6</div>
+									<div class="item" data-value="6">7</div>
+									<div class="item" data-value="7">8</div>
+									<div class="item" data-value="8">9</div>
+									<div class="item" data-value="9">10</div>
+									<div class="item" data-value="10">11</div>
+									<div class="item" data-value="11">12</div>
+									<div class="item" data-value="12">13</div>
+									<div class="item" data-value="13">14</div>
+									<div class="item" data-value="14">15</div>
+									<div class="item" data-value="15">16</div>
+									<div class="item" data-value="16">17</div>
+									<div class="item" data-value="17">18</div>
+									<div class="item" data-value="18">19</div>
+									<div class="item" data-value="19">20</div>
+									<div class="item" data-value="20">21</div>
+									<div class="item" data-value="21">22</div>
+									<div class="item" data-value="22">23</div>
+									<div class="item" data-value="23">24</div>
+									<div class="item" data-value="24">25</div>
+									<div class="item" data-value="25">26</div>
+									<div class="item" data-value="26">27</div>
+									<div class="item" data-value="27">28</div>
+									<div class="item" data-value="28">29</div>
+									<div class="item" data-value="29">30</div>
+									<div class="item" data-value="30">31</div>
+	
+								</div>
+								  
+								</div>
+							  </div>
+							
 						</div>
 						<div class="table-responsive mt-30">
 							<table class="table ucp-table earning__table">
@@ -389,24 +471,6 @@
 	<script src="vendor/OwlCarousel/owl.carousel.js"></script>
 	<script src="vendor/semantic/semantic.min.js"></script>
 	<script src="js/custom1.js"></script>
-	 <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/datepicker.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap-datepicker.min.js"></script>
-	<script src="js/night-mode.js"></script>
-	<script >
-	    $(function () {
-	        $('#datepicker').datepicker({
-		format:"dd/mm/yyyy",
-		autoclose:true,
-		todayHighlight:true,
-		showOtherMonths:true,
-		selectOtherMonths:true,
-		changeMonth:true,
-		changeYear:true,
-		orientation:"button",
-		dateFormat:"yy-mm-dd"
-	});
-	    });
-	</script>		
+	
 </body>
 </html>
